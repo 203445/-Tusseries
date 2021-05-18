@@ -1,6 +1,18 @@
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
+    text-align: center;
+}
+header {
+    background-color: aliceblue;
+    border-style: double;
+    border-color: black;
+    border-width: 2px;
+
+}
+header img {
+    width: 200px;
+    height: auto;
 }
 body {
     font-family: 'Lato', sans-serif;
@@ -10,4 +22,10 @@ span {
     font-family: 'Lato', sans-serif;
     font-size: 12px;
     font-weight: 900;
+}
+footer {
+    background-color: aliceblue;
+    border-style: double;
+    border-color: black;
+    border-width: 2px;
 }
