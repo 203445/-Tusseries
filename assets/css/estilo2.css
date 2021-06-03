@@ -1,0 +1,29 @@
+.fondo1{
+    width: 90%;
+    background-color: gainsboro;
+    height: 0 auto;
+    margin: 0 auto;
+}
+.imagen2{
+    justify-content: center;
+	display: flex;
+	margin-top: 20px;
+    
+    width: 100%;
+    
+}
+div.diseno p{
+    width: 90%;
+    margin: 0;
+    margin-top: 20px;
+}
+.diseno{
+    padding: 5px;
+    text-align: center;
+}
+p a:visited{
+    color: black;
+}
+a{
+    text-decoration: none;
+}

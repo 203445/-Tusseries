@@ -5,25 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;100;900&family=Montserrat:wght@900&display=swap" rel="stylesheet">
-    <title>Hola mundo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:ital,wght@1,900&display=swap" rel="stylesheet">
+    <title>tuseries</title>
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body>
     <header>
-        <img src="./assets/images/webix.svg" alt="Logo de la marca">
-        <h1>El mejor de Blogspot de series</h1>
-        <nav></nav>
+        <div class="contenedor" id="main-header">
+            <a href="index.html">
+                <img   src="./assets/images/janeth.png" alt="Logo de la marca">
+                <img class="centrado" src="./assets/images/Tus Series.png" alt="Logo de la marca">
+            </a>
+        
+        <nav>
+            <ul class="nav-ul_menu">
+                <li> <a href="index.html"><b> Inicio</b></a></li>
+                <li><a href="#acerca"><b>Acerca</b></a> </li>
+                <li> <a href="#contacto"><b>Contacto</b></a></li>
+                <li> <a href=""><b>Más</b></a></li>
+            </ul>
+        </nav>
+    </div>
     </header>
     <main>
-        <h1>Título</h1>
-        <p><b>Lorem ipsum</b>  dolor sit amet consectetur <span>adipisicing </span> elit. Assumenda sint deserunt dolore ipsum, debitis harum nam nihil reiciendis quibusdam temporibus repudiandae fugiat sit esse voluptates aut alias, ipsam sunt modi!</p>
+        <div class="fondo">
+            <h1 id="titulo">Próximas temporadas en netflix</h1>
+
+            <a href="strangerthings.html"><article class="noticia ">
+                    <img class="imagen izquierda" src="./assets/images/Stranger_Things_logo.png">
+                    <div>
+                    <h2>Stranger things</h2>
+                    <p>Más de año y medio año de tan esperada 4 temporada ya se tuvo que retrasar
+                    por inicios de pandemia. No te preocupes ya está por estrenarse.
+                    </p>
+                    </div>
+                </article>
+             </a>
+            <a href="umbrellaacademy.html"><article class="noticia ">
+                    <img class="imagen derecha relleno"  src="./assets/images/The_Umbrella_Academy_logo.jpg">
+                    <div >
+                        <h2>The umbrella academy</h2>
+                        <p>Aunque no se nos haya establecido una fecha de estreno,sí sea confirmado una tercera temporada para esta famosa serie, podemos esperar para ver 
+                            como continua la trama, vaya que si quedaron muchas cosas inconclusas.
+                        </p>
+                    </div>
+                </article>
+            </a>
+        
+            <a href="lacasadepapel.html"><article class="noticia ">
+                <img class="imagen izquierda relleno"  src="./assets/images/La-Casa-de-papel-1.jpg">
+                <div >
+                    <h2>La casa de papel</h2>
+                    <p>¿Estarás listo para lo que viene?
+                        Sin duda un triller mejor que este no puede haber, el dinero siempre se puede ganar y a veces no. Tio debes ver que movimiento harán ahora.
+                    </p>
+                </div>
+                </article>
+            </a>
+
+             <a href="you.html"><article class="noticia ">
+                <img class="imagen derecha relleno"  src="./assets/images/You-Netflix-serie-1.jpg">
+                <div >
+                    <h2>You</h2>
+                    <p>Aunque con exactitud no sabemos cuando se estrena, el ultimo capitulo nos dejo mucho de que hablar.
+                        Pero si es ese el caso si se ha confirmado una tercera temporada.
+                    </p>
+                </div>
+                </article>
+            </a>    
+        </div>  
+        <div class="box">   
+            <h2 id="acerca">Acerca de la página</h2>
+            <p id="acerca">Está página se creó con el fin de dar información para ver que series están próximas
+                para algún estreno o temporadas actualizadas, la mayoria se obtiene de la plataforma 
+                de <b>Netflix</b>. Mantenemos informado a la medida posible.
+                <br>
+                <br>
+                Derechos reservados de información:  <a id="text"  href="https://www.netflix.com/mx/" target="_blank"> <b> Sitio oficial @Netflix</b></a>
+            </p>
+            <p id="acerca"><b>Creado por:</b> Morales Mendoza Janeth</p>
+        </div>
     </main>
-    <footer>
-        <ul>
-            <li>contacto</li>
-            <li>redes sociales</li>
-        </ul>
+    <footer> 
+        <section class="trailer">
+            <p>
+                <a id="contacto"><b> CONTÁCTANOS</b></a>
+                <img src="/assets/images/contacto.png"> tusseries@preguntas.com
+                <img src="/assets/images/facebook.png">Tusseries
+            </p> 
+        </section>
+        
+        
     </footer>
     
 </body>
