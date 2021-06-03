@@ -68,14 +68,16 @@ body {
 }
 .nav-ul_menu li{
     display: inline;
-    margin-right: 50px;
+    margin-right: 2%;
 }
 .nav-ul_menu li a{
     text-decoration:none;
-    font-size: 15px;
 }
 a:visited{
     color:whitesmoke;
+}
+a:link{
+    color: aliceblue;
 }
 nav ul :active{
     color: rgba(68, 206, 206, 0.747);
@@ -88,7 +90,6 @@ article.noticia{
     margin: 20px auto;
     margin: 3%;
     background-color: rgba(255, 254, 254, 0.856);
-    padding: 5px; 
 }
 article.noticia img.izquierda {
     float: left;
@@ -137,7 +138,7 @@ div p{
 	display: flex;
 	margin-bottom: 20px;
     width: 100%;
-    height:100px; 
+    height:100%; 
 }
 a#text:visited{
     color: rgb(6, 29, 51);
